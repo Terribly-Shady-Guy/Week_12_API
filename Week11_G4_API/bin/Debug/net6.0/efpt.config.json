@@ -38,7 +38,7 @@
          "ObjectType": 0
       }
    ],
-   "UiHint": "LAPTOP-05I8GA19.SchoolOfColleges",
+   "UiHint": "week13.SchoolOfColleges",
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": false,
    "UseDbContextSplitting": false,
