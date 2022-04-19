@@ -262,3 +262,4 @@ C:\Users\Tyler\OneDrive\Desktop\college\C# Programming 2\Week11_G4_API\Week11_G4
 C:\Users\Tyler\OneDrive\Desktop\college\C# Programming 2\Week11_G4_API\Week11_G4_API\obj\Debug\net6.0\Week11_G4_API.pdb
 C:\Users\Tyler\OneDrive\Desktop\college\C# Programming 2\Week11_G4_API\Week11_G4_API\obj\Debug\net6.0\Week11_G4_API.genruntimeconfig.cache
 C:\Users\Tyler\OneDrive\Desktop\college\C# Programming 2\Week11_G4_API\Week11_G4_API\obj\Debug\net6.0\ref\Week11_G4_API.dll
+C:\Users\Tyler\OneDrive\Desktop\college\C# Programming 2\Week11_G4_API\Week11_G4_API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
