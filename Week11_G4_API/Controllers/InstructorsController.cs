@@ -14,7 +14,6 @@ namespace Week11_G4_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class InstructorsController : ControllerBase
     {
         private readonly SchoolofcollegesContext _context;
@@ -26,6 +25,7 @@ namespace Week11_G4_API.Controllers
 
         // GET: api/Instructors
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<Instructor>>> GetInstructors()
         {
             return await _context.Instructors.ToListAsync();
@@ -33,6 +33,7 @@ namespace Week11_G4_API.Controllers
 
         // GET: api/Instructors/5
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult<Instructor>> GetInstructor(string id)
         {
             var instructor = await _context.Instructors.FindAsync(id);

@@ -14,7 +14,6 @@ namespace Week11_G4_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class CreditsController : ControllerBase
     {
         private readonly SchoolofcollegesContext _context;
@@ -26,6 +25,7 @@ namespace Week11_G4_API.Controllers
 
         // GET: api/Credits
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<Credit>>> GetCredits()
         {
             return await _context.Credits.ToListAsync();
@@ -33,6 +33,7 @@ namespace Week11_G4_API.Controllers
 
         // GET: api/Credits/5
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult<Credit>> GetCredit(string id)
         {
             var credit = await _context.Credits.FindAsync(id);
