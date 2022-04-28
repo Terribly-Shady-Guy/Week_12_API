@@ -8,7 +8,7 @@ using Week11_G4_API.Data;
 
 namespace Week11_G4_APITests
 {
-    internal class TestDbContextCreator
+    internal static class TestDbContextCreator
     {
         private const string ConnectionString = "Data Source=LAPTOP-05I8GA19;Initial Catalog=SchoolOfColleges;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
